@@ -1,3 +1,0 @@
-#!/bin/bash
-POD2MAN=$(/usr/bin/which pod2man5.12 || echo /usr/bin/pod2man)
-exec $POD2MAN "$@"
